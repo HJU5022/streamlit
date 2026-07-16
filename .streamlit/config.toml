@@ -1,0 +1,11 @@
+[theme]
+base = "light"
+primaryColor = "#0071E3"
+backgroundColor = "#F5F5F7"
+secondaryBackgroundColor = "#FFFFFF"
+textColor = "#1D1D1F"
+font = "sans serif"
+
+[server]
+# 공개 배포에서 과도한 메모리 사용을 줄이기 위한 파일당 제한(MB)
+maxUploadSize = 50

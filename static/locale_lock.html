@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="ko" translate="no">
+<head><meta charset="utf-8"><meta name="google" content="notranslate"></head>
+<body>
+<script>
+(() => {
+  const doc = window.parent.document;
+  doc.documentElement.lang = "ko";
+  doc.documentElement.setAttribute("translate", "no");
+  doc.body.setAttribute("translate", "no");
+  doc.body.classList.add("notranslate");
+  let meta = doc.head.querySelector('meta[name="google"]');
+  if (!meta) {
+    meta = doc.createElement("meta");
+    meta.setAttribute("name", "google");
+    doc.head.appendChild(meta);
+  }
+  meta.setAttribute("content", "notranslate");
+})();
+</script>
+</body>
+</html>

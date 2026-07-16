@@ -1,0 +1,38 @@
+# Virtual environments and local secrets
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+
+.streamlit/secrets.*
+!.streamlit/secrets.toml.example
+
+# Python caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Test and coverage output
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+
+# Build output
+build/
+dist/
+*.egg-info/
+
+# Editors and operating-system files
+.idea/
+.vscode/
+.DS_Store
+
+# Runtime output
+*.log

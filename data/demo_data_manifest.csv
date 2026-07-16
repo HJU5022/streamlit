@@ -1,0 +1,10 @@
+file_name,model_type,data_role,rows,target_column,description
+reference_demo.csv,Binary Classification,Reference,1600,y_true,이진 분류 모델을 학습하고 과거 성능을 계산하는 기준 데이터
+current_normal_demo.csv,Binary Classification,Current Normal,700,y_true,이진 분류 모델의 정상적인 현재 운영 상태를 재현한 데이터
+current_drift_demo.csv,Binary Classification,Current Risk,700,y_true,입력 분포 변화와 성능 저하가 발생한 현재 상태를 재현한 데이터
+reference_multiclass_demo.csv,Multiclass Classification,Reference,1600,service_tier,다중 분류 모델을 학습하고 과거 성능을 계산하는 기준 데이터
+current_multiclass_normal_demo.csv,Multiclass Classification,Current Normal,700,service_tier,다중 분류 모델의 정상적인 현재 운영 상태를 재현한 데이터
+current_multiclass_drift_demo.csv,Multiclass Classification,Current Risk,700,service_tier,클래스 관계와 입력 분포가 변한 현재 상태를 재현한 데이터
+reference_regression_demo.csv,Regression,Reference,1600,next_month_value,회귀 모델을 학습하고 과거 오차를 계산하는 기준 데이터
+current_regression_normal_demo.csv,Regression,Current Normal,700,next_month_value,회귀 모델의 정상적인 현재 운영 상태를 재현한 데이터
+current_regression_drift_demo.csv,Regression,Current Risk,700,next_month_value,숫자 예측 관계와 입력 분포가 변한 현재 상태를 재현한 데이터
